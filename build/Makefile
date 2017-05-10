@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named my_exe
+# Target rules for targets named serveur
 
 # Build rule for target.
-my_exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_exe
-.PHONY : my_exe
+serveur: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serveur
+.PHONY : serveur
 
 # fast build rule for target.
-my_exe/fast:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/build
-.PHONY : my_exe/fast
+serveur/fast:
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/build
+.PHONY : serveur/fast
 
 home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.o: home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.o
 
@@ -129,7 +129,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.o: home/pierre/D
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.i: home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.i
@@ -138,7 +138,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.i: home/pierre/D
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.s: home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.s
@@ -147,7 +147,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.s: home/pierre/D
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.o
@@ -156,7 +156,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.o: home/pier
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.i
@@ -165,7 +165,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.i: home/pier
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.s
@@ -174,7 +174,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.s: home/pier
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_basic.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.o
@@ -183,7 +183,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.o: home/p
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.i
@@ -192,7 +192,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.i: home/p
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.s
@@ -201,7 +201,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.s: home/p
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_distance.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.o
@@ -210,7 +210,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.o: home/pierr
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.i
@@ -219,7 +219,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.i: home/pierr
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.s
@@ -228,7 +228,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.s: home/pierr
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_free.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.o
@@ -237,7 +237,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.o: home/pier
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.i
@@ -246,7 +246,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.i: home/pier
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.s
@@ -255,7 +255,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.s: home/pier
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_guess.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.o
@@ -264,7 +264,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.o: 
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.i
@@ -273,7 +273,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.i: 
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.s
@@ -282,7 +282,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.s: 
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_initialization.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.o
@@ -291,7 +291,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.o: home/pierr
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.i
@@ -300,7 +300,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.i: home/pierr
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.s
@@ -309,7 +309,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.s: home/pierr
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_play.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.o
@@ -318,7 +318,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.o: home/pier
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.i
@@ -327,7 +327,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.i: home/pier
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.s
@@ -336,7 +336,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.s: home/pier
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_print.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.o
@@ -345,7 +345,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.o: home/pie
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.i
@@ -354,7 +354,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.i: home/pie
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.s
@@ -363,7 +363,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.s: home/pie
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/board_update.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.o
@@ -372,7 +372,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_f
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.i
@@ -381,7 +381,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_f
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.s
@@ -390,7 +390,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_f
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/interface/player_board_functions.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.o: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.o
@@ -399,7 +399,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.o: home/pierre/
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.i: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.i
@@ -408,7 +408,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.i: home/pierre/
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.s: home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.s
@@ -417,7 +417,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.s: home/pierre/
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/joueur/board/position.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.o: home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.o
@@ -426,7 +426,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.o: home/pierre/Document
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.i: home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.i
@@ -435,7 +435,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.i: home/pierre/Document
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.s: home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.s
@@ -444,7 +444,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.s: home/pierre/Document
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/lexer.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.o: home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.o
@@ -453,7 +453,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.o: home/pierr
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.i: home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.i
@@ -462,7 +462,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.i: home/pierr
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.s: home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.s
@@ -471,7 +471,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.s: home/pierr
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/parse_functions.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.o: home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.o
@@ -480,7 +480,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.o: home/pierre/Docume
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.i: home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.i
@@ -489,7 +489,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.i: home/pierre/Docume
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.s: home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.s
@@ -498,35 +498,8 @@ home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.s: home/pierre/Docume
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.c.s
-
-home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.o: home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.o
-
-.PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.o
-
-# target to build an object file
-home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.o
-.PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.o
-
-home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.i: home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.i
-
-.PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.i
-
-# target to preprocess a source file
-home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.i
-.PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.i
-
-home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.s: home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.s
-
-.PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.s
-
-# target to generate assembly for a file
-home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.s
-.PHONY : home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.o: home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.o
 
@@ -534,7 +507,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.o: home/pierre/Doc
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.i: home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.i
@@ -543,7 +516,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.i: home/pierre/Doc
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.s: home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.s
@@ -552,7 +525,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.s: home/pierre/Doc
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.o: home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.o
@@ -561,7 +534,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.o: home/pierre/Docu
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.i: home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.i
@@ -570,7 +543,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.i: home/pierre/Docu
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.s: home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.s
@@ -579,7 +552,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.s: home/pierre/Docu
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/play_move.c.s
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.o: home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.o
@@ -588,7 +561,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.o: home/pierre/Docume
 
 # target to build an object file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.o
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.o
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.o
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.i: home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.i
@@ -597,7 +570,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.i: home/pierre/Docume
 
 # target to preprocess a source file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.i
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.i
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.i
 
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.s: home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.s
@@ -606,7 +579,7 @@ home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.s: home/pierre/Docume
 
 # target to generate assembly for a file
 home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.s
+	$(MAKE) -f CMakeFiles/serveur.dir/build.make CMakeFiles/serveur.dir/home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.s
 .PHONY : home/pierre/Documents/ENSEIRB/spotache/src/serveur/serveur.c.s
 
 # Help Target
@@ -617,7 +590,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... my_exe"
+	@echo "... serveur"
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.o"
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.i"
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/error/error_and_free.s"
@@ -660,9 +633,6 @@ help:
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.o"
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.i"
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/parseur/parseur.s"
-	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.o"
-	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.i"
-	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/parseur/print_parse.s"
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.o"
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.i"
 	@echo "... home/pierre/Documents/ENSEIRB/spotache/src/serveur/initialize.s"

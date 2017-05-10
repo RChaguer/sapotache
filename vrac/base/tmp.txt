@@ -1,0 +1,1 @@
+*** ./a.out: cannot open file sapo4.ok.txt

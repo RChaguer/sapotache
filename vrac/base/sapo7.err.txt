@@ -1,0 +1,28 @@
+# An erroneous token when reading a card
+9 5
+#
+****$****
+*****%***
+>*****$**
+**%******
+*********
+# 
+V_LINE  VVVVV
+H_LINE  3
+V_CROSS 5
+H_CROSS 5
+X_CROSS 5
+L_TURN  5
+R_TURN  4
+D_END   9
+# 
+BOULDER 3
+# 
+B_AXE   3
+B_LAMP  3
+B_CART  3
+R_AXE   2
+R_LAMP  2
+R_CART  2
+R_ALL   3
+

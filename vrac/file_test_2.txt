@@ -1,0 +1,22 @@
+# file test 2
+# ******OPTONNAL CARDS******
+
+10 2
+
+>*******$*
+*****%***$
+
+H_LINE  3
+L_TURN  5
+R_TURN  4
+D_END   9
+
+BOULDER 1
+
+B_AXE   3
+B_LAMP  3
+B_CART  3
+R_AXE   2
+R_LAMP  2
+R_CART  2
+R_ALL   3

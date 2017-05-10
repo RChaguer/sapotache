@@ -37,13 +37,16 @@ file(
 
 	../src/error/*
 	../src/serveur/*
-	../src/parseur/*
+	../src/parseur/lexer.c
+	../src/parseur/parse_functions.c
+	../src/parseur/parseur.h
+	../src/parseur/parseur.c
 	../src/joueur/board/*	
 )
 
 add_executable(
 
-  my_exe
+  serveur
 
   ${source_files} 
 
@@ -52,3 +55,11 @@ add_executable(
 
 set(EXECUTABLE_OUTPUT_PATH ../bin)
 
+target_link_libraries(
+
+        serveur
+
+        LINK_PUBLIC
+
+	dl
+)

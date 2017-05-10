@@ -1,0 +1,22 @@
+# file test 1
+# ******NO OPTONNAL CARDS******
+
+9 8
+
+>***%**$*
+**%***%*$
+****%****
+****$*%**
+**%******
+***$*****
+*****%*$*
+**%*****%
+
+V_LINE  1
+H_LINE  1
+V_CROSS 6
+H_CROSS 6
+X_CROSS 6
+L_TURN  2
+R_TURN  2
+D_END   10

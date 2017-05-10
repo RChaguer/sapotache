@@ -1,0 +1,8 @@
+Configuration : 10x2
+Card types    : 12
+Nb of cards   : 40
+Objectives    : 2 (9,0) (8,1) 
+Holes         : 1 (5,0)
+Allow boulder : yes
+Allow breaks  : yes
+Repair=Break  : yes

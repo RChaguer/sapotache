@@ -1,3 +1,0 @@
-/home/pierre/Documents/ENSEIRB/spotache/build/CMakeFiles/edit_cache.dir
-/home/pierre/Documents/ENSEIRB/spotache/build/CMakeFiles/rebuild_cache.dir
-/home/pierre/Documents/ENSEIRB/spotache/build/CMakeFiles/my_exe.dir
