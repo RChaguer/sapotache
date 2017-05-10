@@ -1,0 +1,7 @@
+
+--Cette ligne, et les suivantes ci-dessous, seront ignorées--
+
+M    serveur/initialize.c
+M    serveur/play_move.c
+M    serveur/serveur.c
+M    serveur/serveur.h

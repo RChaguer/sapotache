@@ -1,1 +1,1 @@
-# sapotache
+cmake . -G"Unix Makefiles"

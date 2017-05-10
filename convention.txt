@@ -1,0 +1,15 @@
+Saint traité de conventions de codage
+
+- Des tabulations conformes, tu fourniras.
+- Pas de saut de ligne avant une accolade fermante.
+- Pas d'espace avant un point-virgule.
+- Accolade ouvrante sur la première ligne.
+- Penser à faire des sauts de ligne quand même.
+- Déclarer toute variable en début de fonction.
+- Saut de ligne quand on entre dans un branchement qui n'est pas de profondeur maximale.
+- Accolades obligatoires, même pour un branchement ne contenant qu'une instruction.
+- Parenthèses autour de ce qu'on renvoie.
+- Espaces entre opérateurs, pas d'espace entre parenthèses et opérandes.
+- Espaces après une virgule, après et avant dans le point-virgule d'une boucle for.
+- Les pointeurs doivent être instanciés à NULL.
+- Les else se trouvent au même niveau que l'accolade femrante. 

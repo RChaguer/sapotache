@@ -1,0 +1,101 @@
+#ifnef PARSEUR_H
+#define PARSEUR_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef	struct	s_card
+{
+	enum card_id	card;
+	unsigned int	reverse;	
+}		t_card;
+
+
+#define POS_NOTHING ((position)0)
+#define POS_START ((position) 1)
+#define POS_HOLE ((position) 2)
+#define POS_OBJECTIVE ((position)3)
+
+#define NB_CARD_ID 17
+
+enum card_id {
+  NO_CARD = 0,       // special id for empty card
+  CARD_V_LINE,       // vertical line
+  CARD_H_LINE,       // horizontal line
+  CARD_V_CROSS,      // 3 exits, 2 verticals + 1 left
+  CARD_H_CROSS,      // 3 exits, 2 horizontals + 1 up
+  CARD_X_CROSS,      // 4 exits
+  CARD_L_TURN,       // left turn (down to left)
+  CARD_R_TURN,       // right turn (down to right)
+  CARD_D_END,        // no exits
+  CARD_BOULDER,      // special : boulder card
+  CARD_B_AXE,        // break one axe
+  CARD_B_LAMP,       // break one lamp
+  CARD_B_CART,       // break one cart
+  CARD_R_AXE,        // repair one axe
+  CARD_R_LAMP,       // repair one lamp
+  CARD_R_CART,       // repair one cart
+  CARD_R_ALL         // repair anything
+};
+
+
+enum token_type {
+  ID,
+  NUMBER,
+  STAR,
+  ARROW,
+  DOLLAR,
+  PERCENT,
+  END_OF_FILE,
+};
+
+#define TOKEN_SIZE 256
+
+struct token {
+  enum token_type type;
+  char str[TOKEN_SIZE];
+};
+
+struct board_config {
+
+  unsigned int width;
+  unsigned int height;
+  
+  unsigned int card_types;
+  unsigned int card_frequency[NB_CARD_ID];
+  unsigned int nb_of_cards;
+
+  unsigned int nb_objectives;
+  unsigned int nb_holes;
+
+  t_card **board;
+
+  int allow_boulder;
+  int allow_breaks;
+  int repair_eq_break;
+};
+
+typedef struct board_config t_config;
+
+
+char *card_id_translation_table[] = { "NO_CARD",
+				      "V_LINE",      
+				      "H_LINE",       
+				      "V_CROSS",      
+				      "H_CROSS",      
+				      "X_CROSS",      
+				      "L_TURN",
+				      "R_TURN",
+				      "D_END",
+				      "BOULDER",
+				      "B_AXE", 
+				      "B_LAMP",
+				      "B_CART",
+				      "R_AXE", 
+				      "R_LAMP",
+				      "R_CART",
+				      "R_ALL" };
+
+
+#endif

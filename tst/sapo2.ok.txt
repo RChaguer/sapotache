@@ -1,0 +1,47 @@
+# Un '#' en dÃ©but de ligne dÃ©signe un commentaire
+# Une ligne vide est ignorÃ©e
+      
+# Les deux premiers entiers dÃ©signent la largeur-width L et la
+# hauteur-height H du jeu.
+      
+9 5
+      
+# Les positions de jeu sont des couples d'entiers (x,y)
+# Le coin en bas Ã  gauche est aux coordonnÃ©es (0,0).
+# Le coin en haut Ã  droite est aux coordonnÃ©es (L-1,H-1).
+
+# La spÃ©cification du plateau de jeu sous la forme de H lignes
+# contenant chacune exactement L caractÃ¨res. 
+# Un trou est marquÃ© par un '%', le dÃ©part par un '>',
+# une arrivÃ©e par un '$', sinon on utilise '*'.
+********$
+*****%***
+>*******$
+**%******
+********$
+
+# La liste des cartes utilisÃ©es dans le jeu sous la forme d'un couple
+# (chaÃ®ne de caractÃ¨res du langage "[A-Z_]+", entier). Toutes les
+# chaÃ®nes caractÃ¨res possibles apparaissant dans le jeu apparaÃ®t ci-aprÃ¨s :
+      
+V_LINE  4
+H_LINE  3
+V_CROSS 5
+H_CROSS 5
+X_CROSS 5
+L_TURN  5
+R_TURN  4
+D_END   9
+
+# Optionnellement les cartes de jeu supplÃ©mentaires
+# pour remplacer une carte en jeu
+BOULDER 3
+
+# Ainsi que les cartes pour casser et rÃ©parer des outils
+B_AXE   3
+B_LAMP  3
+B_CART  3
+R_AXE   2
+R_LAMP  2
+R_CART  2
+R_ALL   3
